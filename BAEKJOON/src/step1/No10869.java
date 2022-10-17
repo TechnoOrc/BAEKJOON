@@ -18,11 +18,13 @@ public class No10869 {
 
         int A = 0;
         int B = 0;
-        int B = 0;
-        int B = 0;
-        int  = 0;
-        
-
-
+        A = sc.nextInt();
+        B = sc.nextInt();
+        sc.close();
+        System.out.println(A+B);
+        System.out.println(A-B);
+        System.out.println(A*B);
+        System.out.println(A/B);
+        System.out.println(A%B);
     }//main
 }//class
