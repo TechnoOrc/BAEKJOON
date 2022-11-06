@@ -44,11 +44,6 @@ public class No2588 {
         int B2 = Integer.parseInt(strB.substring(1,2));
         int B3 = Integer.parseInt(strB.substring(2));
 
-       
-        
-       
-             
-
         System.out.println(A * B3);
         System.out.println(A * B2);
         System.out.println(A * B1);
