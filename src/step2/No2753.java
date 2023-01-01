@@ -1,9 +1,6 @@
 package step2;
 
 import java.util.Scanner;
-
-import javax.swing.InputMap;
-
 public class No2753 {
     
     public static void main(String[] args) {
