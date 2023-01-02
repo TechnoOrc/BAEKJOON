@@ -1,7 +1,6 @@
 package step2;
 
 import java.util.Scanner;
-
 public class No2753 {
     
     public static void main(String[] args) {

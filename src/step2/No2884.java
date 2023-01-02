@@ -6,20 +6,23 @@ public class No2884 {
     
     public static void main(String[] args) {
         
-        int h, m = 0;
         Scanner sc = new Scanner(System.in);
-        
-        h = sc.nextInt();
-        m = sc.nextInt();
 
+        int h = sc.nextInt();
+        int m = sc.nextInt();
         sc.close();
 
-        if(m-45 >= 0){
-            System.out.println(h + " "+ (m-45));
+        if(m < 45){
+            m = 60 + (m-45);
+            if(h < 1){
+                h = 23;
+            }else h = h-1;
             
-        }else if(m-45 < 0){
-            System.out.println( (h-1) + " " + ((m-45)-60) );
-        }
+        }else{
+            m = m - 45;
+        } 
+
+        System.out.println(h + " " + m);
 
     }//main
 
