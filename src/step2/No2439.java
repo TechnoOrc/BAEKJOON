@@ -7,21 +7,17 @@ public class No2439 {
         
         Scanner sc = new Scanner(System.in);
 
-        int n = 0;
-
-        n = sc.nextInt();
+        int n = sc.nextInt();
         sc.close();
 
-        for(int i = n; i > 0; i--){
-            for(int j = 0; j < i; j++){
+        for(int i = 1; i <= n; i++){
+            for(int k = n-i; k > 0; k-- ){
                 System.out.print(" ");
-                for(int k = 0; k < n; k++){
-                    System.out.println("*");
-                }
             }
-
-            System.out.println(" ");
+            for(int j = 0; j < i; j++){
+             System.out.print("*");
+            }
+            System.out.println("");
         }
-
     }//main
 }//class
