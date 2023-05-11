@@ -1,8 +1,8 @@
-package step2;
+package step3;
 
 import java.util.Scanner;
 
-public class No2530 {
+public class No25304 {
     public static void main(String[] args) {
         
         int totalPrice = 0;
